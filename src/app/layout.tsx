@@ -1,4 +1,7 @@
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { Nav } from "./nav";
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Steven McHenry",
@@ -12,7 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <Nav />
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

@@ -1,10 +1,5 @@
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 
-// import { Inter } from 'next/font/google'
-// const inter = Inter({ subsets: ['latin'] })
-//           <h2 className={inter.className}>
-//             Docs <span>-&gt;</span>
-//           </h2>
 {
   /* <Image
   className={styles.logo}
@@ -17,5 +12,74 @@ import styles from "./page.module.css";
 }
 
 export default function Home() {
-  return <main className={styles.main}>hello</main>;
+  return (
+    <main className={styles.main}>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, eos
+        obcaecati molestiae maxime culpa voluptatum impedit ea commodi eum ullam
+        porro excepturi facilis nemo repellat velit aliquid reiciendis tempore
+        quasi!
+      </p>
+    </main>
+  );
 }
