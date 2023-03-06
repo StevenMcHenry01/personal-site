@@ -12,8 +12,8 @@
   position: fixed;
   top: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
   padding: 25px 35px;
-  background: #88867855;
-  border: 1px solid red;
   backdrop-filter: saturate(180%) blur(5px);
 }

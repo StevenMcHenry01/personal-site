@@ -11,6 +11,7 @@
   --foreground: var(--black);
   --background: var(--white);
   --primary: #6bcbad;
+  --primary-dark: #54a088;
   --secondary: #5f5f5f;
 }
 
